@@ -1,0 +1,185 @@
+body{
+    background-image: url("/suit2.jpg");
+    
+    background-color:white;
+    margin:0;
+    padding:0;
+
+}
+.title{
+    display: flex;
+    font-size: 3vw;
+color: black;
+    justify-content: space-around;
+    align-items:center;
+    height:10vw;
+    
+    background-repeat: no-repeat;
+    background-size: auto;
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    ),
+    /* bottom, image */
+    url("../../suit2.jpg");
+}
+.fa{
+    color: lightcoral;
+    
+}
+.name{
+    font-size:3vw;
+    
+}
+
+.pitch{
+    display:flex;
+    
+    background-color:black;
+    justify-content: center;
+    align-items:center;
+    height:30vw;
+}
+
+#center{
+    background-color:wheat ;
+    height:30vw;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 5px;
+   
+}
+.back{
+  
+    /*background: 
+    /* top, transparent red, faked with gradient  
+    linear-gradient(
+      rgba(255, 255, 255, 0.45), 
+      rgba(255, 255, 255, 0.45)
+    );
+    background-repeat: no-repeat;
+    background-size: 100vw;*/
+    height:25vw;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+font-size: 100px;
+color: black;
+}
+#aqua{
+font-family: 'Rowdies', cursive;
+color: purple;
+width:vw;
+height:4.2vw;
+font-size: 8vw;
+text-align: center;
+
+}
+#statement{
+    text-align: center;
+    font-size:3vw;
+    height:10vw;
+    width:100vw;
+}
+#setup{
+    width:29.5vw;
+    height:13vw;
+}
+#create{
+   margin:0px;
+    border-style: ridge;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    background-color: springgreen;
+    width:28.2vw;
+    height:2vw
+}
+/*#allur{
+    font-family: 'Allura', cursive;}
+    #condiment{
+    font-family: 'Condiment', cursive;}
+    #damion{
+    font-family: 'Damion', cursive;}
+    #dance{
+    font-family: 'Dancing Script', cursive;}
+    #great{
+    font-family: 'Great Vibes', cursive;}
+    #montez{
+    font-family: 'Montez', cursive;}
+    #Mr{
+    font-family: 'Mr Bedfort', cursive;}
+    #pacifo{
+    font-family: 'Pacifico', cursive;
+    }*/
+.mid{
+    background-color: orchid;
+}
+.hmm{
+    background-color: red;
+}
+
+    @media  (max-width: 500px){
+    .title{
+       /* flex-direction:column;
+        font-size: 10vw;*/
+        height: smaller;
+    
+    }
+    body{
+        background-color:orangered;
+    }
+  
+   .back{
+       
+       
+   }
+}
+.over{
+
+    height:24vw;
+    width:5vw;
+}
+.open{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about{
+    height:10vh;
+    display:flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+.about p{
+    font-size:4vw;
+    font-family: 'Rowdies', cursive;
+    color:black;
+   margin-bottom: 0;
+    height:7vw;
+}
+#space{
+    height:5vw;
+}
+#big{
+   font-size:1vw;
+   margin:0;
+   width:80vw;
+   text-align: center;
+}
+#fr{
+    margin:0;
+    font-size:1.5vw;
+    height:3vw;
+    padding:0;
+}
+#me{
+    color:orangered;
+}
